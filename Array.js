@@ -89,3 +89,20 @@ console.log("M sum >>>",msum)
     let socres1 = [2,4,6,8,3,10]
     let values = socres1.filter(newscore=>newscore%2==0).map(mscore=>mscore*3).reduce((vreduce,vartotal)=>vreduce+vartotal,0)
     console.log("Total Value",values)
+
+
+
+//Sorting the Arrays
+//for string array
+let fruits = ["orange","banana","apple","guva","stawberry"]   
+console.log(fruits.sort()) //asc
+console.log(fruits.reverse())//desc
+
+
+//sorting int Array
+let sortarray = [4,8,2,3,59,001]
+sortarray.sort((a,b)=>a-b) //asc
+console.log(sortarray)
+
+sortarray.reverse((c,d)=>c-d) //desc
+console.log(sortarray)
