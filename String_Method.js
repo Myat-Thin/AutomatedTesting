@@ -33,5 +33,20 @@ let st =diff.toString()
 console.log(st)
 
 //concating string
-let q = day+ "is Funny day"
+let q = day+ "is Funnyday day"
 console.log(q)
+
+
+//index of method
+let val1 = q.indexOf("day")
+console.log(val1)
+
+
+//indexOf + while loop
+let count = 0
+let quote = q.indexOf("day")
+while (quote != -1){
+    count ++
+    quote = q.indexOf("day",quote+1)
+}
+console.log(count)
